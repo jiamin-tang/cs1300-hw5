@@ -1,1 +1,65 @@
 /* Put your style information here! */
+@media (max-width: 768px) {
+    .main {
+        margin-left: 0 !important;
+        margin-right: 0 !important;        
+    }
+}
+
+body {
+    font-family: 'Dekko', cursive;
+    background-color: #f1f1e8;
+}
+
+
+.main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+h0 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    color:#81b214;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+
+h1 {
+    font-size: 40px;
+    color:#81b214;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2vw;
+    color: bfdcae;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+
+h5 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    color:#81b214;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.container {
+	max-width: 960px;
+}

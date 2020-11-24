@@ -1,14 +1,84 @@
-<!doctype html>
-
-<html>
+<html lang="en">
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="bootstrap.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90f50068f8.js" crossorigin="anonymous"></script>
+    
+    <title>Development</title>
   </head>
-
+  
   <body>
-    <!-- TODO: put your HTML code here! -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:#206a5d;">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdemo">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navdemo">
+          <ul class="navbar-nav nav nav-fill w-100">
+            <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+            <li class="nav-item"><a class="nav-link" href="#usability">Usability</a></li>
+            <li class="nav-item"><a class="nav-link" href="#links">Links</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+
+    <div class="main">
+      <div class="d-flex flex-column justify-content-center align-items-center top-pane">
+        <h0>Development</h0>
+      </div>
+
+      <div id="overview" class="container-fluid">
+        <h1>Overview</h1>
+    
+        <h2>This project creates a furniture shopping app with live filtering and sorting functionality, and a shopping cart for adding/removing items, as well as changing the quantity of items in the cart and displaying the total price. Such interface is widely used in online shopping websites nowadays, which could largely improve users’ shopping experience with a responsive and interactive design. </h2>
+        <h2>The interface created in this project uses React.js and React Bootstrap framework, and practices organizing components and making dynamic changes of data passing flow from scratch.</h2>
+        
+      </div>
+
+      <div id="usability" class="container-fluid">
+        <h1>Usability</h1>
+
+        <div class="container">
+          <div class="row text-center justify-content-center">
+            <img class="img-fluid" src="images/homepage.png" alt="homepage">
+            <h3>Screenshot of the Interface</h3>
+          </div>
+        </div>
+
+        <ul style="font-size:20px;">
+          <li>Each item displays in the simple, neat form of a card with item name, filtering/sorting criterias(category, color and price), aggregating category(price) and an add-to-cart button which would not confuse users with overlapped information among items.</li>
+          <li>The default interface displays all the items without any filtering or sorting. When the user hovers over or clicks on the button on the Navbar, it turns dark from light grey. This makes users informed of the filtering criteria they select when seeing the displayed items, and would not get confused with multiple filters.</li>
+          <li>The shopping cart session appears in the right column of the interface, which would keep the user informed of the items selected. If the user wants to add more of an item in the cart, he could just click on the “+” button below the item in the cart section. The “-” button works for decreasing the quantity of remaining items. If uses just want to remove the item, he could also click the remove button beneath. The items will be removed from the cart and the total price gets updated.</li>
+        </ul>
+
+      </div>
+
+      <div id="links" class="container-fluid">
+        <h1>Links</h1>
+        <h2>
+          <p><a style="color: black; font-weight: bold;" href="https://github.com/jiamin-tang/Development-Interface">GitHub repo of the React App</a></p>
+          <p><a style="color: black; font-weight: bold;" href="https://tranquil-eyrie-67058.herokuapp.com/">Deployed Website</a></p>
+        </h2>
+      </div>
+
+
+    </div> 
+
+    <footer class="py-3" style="background-color: #206a5d;">
+      <div class="container text-center">
+          <p class="mb-0">© 2020</a><br>
+      </div>
+    </footer>
+    
+  
   </body>
+  
 </html>
